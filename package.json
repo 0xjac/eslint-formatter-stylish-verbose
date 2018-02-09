@@ -1,0 +1,44 @@
+{
+  "name": "eslint-formatter-stylish-verbose",
+  "version": "0.0.1",
+  "description": "Modified version of the stylish reporter for ESLint which logs files without warning/errors. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/nyc/bin/nyc.js node_modules/mocha/bin/mocha --harmony tests",
+    "lint": "node_modules/eslint/bin/eslint.js --format ./index.js index.js tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacquesd/eslint-formatter-stylish-verbose.git"
+  },
+  "keywords": [
+    "eslint",
+    "formatter",
+    "stylish",
+    "verbose"
+  ],
+  "author": "Jacques Dafflon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacquesd/eslint-formatter-stylish-verbose/issues"
+  },
+  "homepage": "https://github.com/jacquesd/eslint-formatter-stylish-verbose#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.0.0",
+    "nyc": "^11.4.1",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "strip-ansi": "^4.0.0",
+    "text-table": "^0.2.0"
+  }
+}
