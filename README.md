@@ -1,5 +1,6 @@
 # eslint-formatter-stylish-verbose
 [![Build Status](https://travis-ci.org/jacquesd/eslint-formatter-stylish-verbose.svg?branch=master)](https://travis-ci.org/jacquesd/eslint-formatter-stylish-verbose)
+[![Codecov](https://img.shields.io/codecov/c/github/jacquesd/eslint-formatter-stylish-verbose.svg)](https://codecov.io/gh/jacquesd/eslint-formatter-stylish-verbose)
 [![License](https://img.shields.io/github/license/jacquesd/eslint-formatter-stylish-verbose.svg)](https://github.com/jacquesd/eslint-formatter-stylish-verbose/blob/master/LICENSE)
 [![npm version](https://badge.fury.io/js/eslint-formatter-stylish-verbose.svg)](https://www.npmjs.com/package/eslint-formatter-stylish-verbose)
 

@@ -9,6 +9,8 @@ matrix:
       env: TASK=TEST
 install:
   - npm install
+  - npm install -g codecov
 script:
   - if [ "$TASK" = "LINT" ]; then npm run lint; fi
   - if [ "$TASK" = "TEST" ]; then npm run test; fi
+after_success: if [ "$TASK" = "TEST" ]; then codecov; fi
